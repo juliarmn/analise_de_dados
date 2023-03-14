@@ -14,3 +14,11 @@ print(dataframe['cor'])
 #Linhas são como listas
 print('\n\n')
 print(dataframe[:3])
+
+#Passar mais de uma coluna:
+print('\n\n')
+print(dataframe[['cor', 'quantidade']])
+
+#Pegar só um valor:
+print('\n\n')
+print(dataframe['cor'][3])
