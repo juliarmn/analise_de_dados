@@ -20,6 +20,14 @@ clientes_dataFrame = clientes_dataFrame.drop(['Unnamed: 7', 'Unnamed: 8', 'Unnam
 display(clientes_dataFrame)
 clientes_dataFrame = clientes_dataFrame[['ID Cliente']]
 print(clientes_dataFrame)
-promocoes_dataframe = promocoes_dataFrame[['ID Promocao']]
+promocoes_dataframe = promocoes_dataFrame[['ID Promocao', 'Nome Promocao']]
 print(promocoes_dataframe)
-vendas_dataFrame = vendas_dataFrame[['Categoria']]
+vendas_dataFrame = vendas_dataFrame[['Categoria', 'ID Produto']]
+display(vendas_dataFrame)
+
+#on=['nome coluna']:
+#clientes_dataFrame = clientes_dataFrame.merge(promocoes_dataFrame, on='ID Promocao')
+# clientes_dataFrame = clientes_dataFrame.merge(vendas_dataFrame, on='Categoria')
+# display(vendas_dataFrame)
+# vendas_dataFrame = vendas_dataFrame.rename(columns={'Categoria': 'categoria'})
+display(vendas_dataFrame)
