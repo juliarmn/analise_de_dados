@@ -1,5 +1,5 @@
 venv/
-*.dados.csv
-*.promocoes.csv
-*.clientes.csv
+dados.csv
+promocoes.csv
+clientes.csv
 __pychache__/
