@@ -22,3 +22,7 @@ print(dataframe[['cor', 'quantidade']])
 #Pegar só um valor:
 print('\n\n')
 print(dataframe['cor'][3])
+
+#informações e valores não nulos:
+#tipo  de informação também
+dataframe.info()
